@@ -1,0 +1,36 @@
+import React, { useState } from 'react'
+import "../Stylesheets/NavBar.css"
+import { BiHomeAlt2 } from "react-icons/bi";
+import { PiUserListBold } from "react-icons/pi";
+import { CgNotes } from "react-icons/cg";
+import { AiOutlineThunderbolt } from "react-icons/ai";
+import { CiServer } from "react-icons/ci";
+import { IoCallOutline } from "react-icons/io5";
+import { TiThMenu } from "react-icons/ti";
+import DropdownNav from './DropdownNav';
+const NavBar = () => {
+ 
+  const [dropdownOnOff,setDropdownOnOff]=useState(false);
+  return (
+    <>
+      <div className='Navbar-container'>
+        {/* nav-bar section */}
+        <div className='name'>
+           <p>Mathiyarasu</p>
+        </div>
+        <div className='menus'>
+                <a href="#"><BiHomeAlt2 className='icons'/><span className='menu-items'>Home</span></a>
+                <a href="#"><PiUserListBold className='icons'/><span className='menu-items'>About</span></a>
+                <a href="#"><CgNotes className='icons'/><span className='menu-items'>Resume</span></a>
+                <a href="#"><AiOutlineThunderbolt className='icons'/><span className='menu-items'>Skills</span></a>
+                <a href="#"><CiServer className='icons'/><span className='menu-items'>Project</span></a>
+                <a href="#"><IoCallOutline className='icons'/><span className='menu-items'>Contact</span></a>
+        </div>
+        <div className='menu-button' onClick={()=>{setDropdownOnOff(prevState => !prevState)}}><TiThMenu className='menu-icon'/></div>
+      </div>
+      {dropdownOnOff==(true)?<DropdownNav/>:""}
+    </>
+  )
+}
+
+export default NavBar
