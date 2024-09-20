@@ -63,7 +63,7 @@
 
 /* Responsive code by using media qurey */
   
-  @media (min-width: 320px) and (max-width: 978px) {
+  @media (min-width: 50px) and (max-width: 978px) {
     .menu-button{
         display:flex;
         justify-content: center;

@@ -17,14 +17,14 @@ const DropdownNav = () => {
     });
  
   return (
-    <div className="dropdown" data-aos="slide-down">
+      <div className="dropdown">
         <a href="#"><BiHomeAlt2 className='icons'/><span className='menu-items'>Home</span></a>
         <a href="#"><PiUserListBold className='icons'/><span className='menu-items'>About</span></a>
         <a href="#"><CgNotes className='icons'/><span className='menu-items'>Resume</span></a>
         <a href="#"><AiOutlineThunderbolt className='icons'/><span className='menu-items'>Skills</span></a>
         <a href="#"><CiServer className='icons'/><span className='menu-items'>Project</span></a>
         <a href="#"><IoCallOutline className='icons'/><span className='menu-items'>Contact</span></a>
-    </div>
+      </div>
   )
 }
 export default DropdownNav
