@@ -2,7 +2,7 @@ import '../Stylesheets/banner.css'
 import BGImage from '../assets/darkspace.jpeg'
 const Banner = () =>{
     return(
-       <div className='bg-img-container br'>
+       <div className='bg-img-container'>
         <img src={BGImage} alt="Background imgage" />
         <div className='text-content'>
             <span className='yellow'>Hello !</span>

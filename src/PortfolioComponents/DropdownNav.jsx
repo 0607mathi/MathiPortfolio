@@ -17,7 +17,7 @@ const DropdownNav = () => {
     });
  
   return (
-      <div className="dropdown">
+      <div className="dropdown" data-aos="fade-down">
         <a href="#"><BiHomeAlt2 className='icons'/><span className='menu-items'>Home</span></a>
         <a href="#"><PiUserListBold className='icons'/><span className='menu-items'>About</span></a>
         <a href="#"><CgNotes className='icons'/><span className='menu-items'>Resume</span></a>

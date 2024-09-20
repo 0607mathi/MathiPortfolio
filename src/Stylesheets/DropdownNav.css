@@ -6,7 +6,7 @@
     align-items:center;
     gap: 15px;
     padding: 1% 1% 2% 0;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
     border-radius: 7px;
     position:absolute;
     width:99%;

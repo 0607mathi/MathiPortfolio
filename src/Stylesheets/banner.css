@@ -16,18 +16,25 @@ img{
 .text-content{
     position: absolute;
     left: 10%;
-    top: 40%;
+    top: 30%;
     display: flex;
     flex-direction: column;
+    gap: 4px;
 }
 
 .text-content>span{
-    font-size: 70%;
-    font-weight: 500;
+    font-size: 90%;
+    font-weight: 600;
 }
 
 .yellow{
     color: yellow;
+}
+
+@media (min-width: 489px)  and (max-width: 659px)  {
+    .text-content>span{
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 660px)  and (max-width: 720px)  {
@@ -35,20 +42,42 @@ img{
         width: 95%;
         height: 400px;
     }    
+    .text-content>span{
+        font-size: 20px;
+    }
+    .text-content{
+        left: 13%;
+        top: 35%;
+    }
     
 }
+
 
 @media (min-width: 721px)  and (max-width: 949px)  {
 
     img{
         width: 95%;
         height: 470px;
-    }    
+    } 
+    .text-content>span{
+        font-size: 22px;
+    }
+    .text-content{
+        left: 15%;
+        top: 35%;
+    }  
 }
 
 @media (min-width: 949px)  and (max-width: 1536px)  {
     img{
         width: 88%;
         height: 580px;
-    }    
+    }   
+    .text-content>span{
+        font-size: 24px;
+    }
+    .text-content{
+        left: 15%;
+        top: 35%;
+    }
 }
