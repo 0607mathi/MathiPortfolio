@@ -7,12 +7,15 @@ import { AiOutlineThunderbolt } from "react-icons/ai";
 import { CiServer } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
-import DropdownNav from './DropdownNav';
+// import DropdownNav from './DropdownNav';
+
+
+
 const NavBar = () => {
  
   const [dropdownOnOff,setDropdownOnOff]=useState(false);
   return (
-    <>
+    <div className='nav-bar'>
       <div className='Navbar-container'>
         {/* nav-bar section */}
         <div className='name'>
@@ -28,8 +31,16 @@ const NavBar = () => {
         </div>
         <div className='menu-button' onClick={()=>{setDropdownOnOff(prevState => !prevState)}}><TiThMenu className='menu-icon'/></div>
       </div>
-      {dropdownOnOff==(true)?<DropdownNav/>:""}
-    </>
+      {dropdownOnOff==true?<div className="dropdown" data-aos="fade-down">
+        <a href="#"><BiHomeAlt2 className='icons'/><span className='menu-items'>Home</span></a>
+        <a href="#"><PiUserListBold className='icons'/><span className='menu-items'>About</span></a>
+        <a href="#"><CgNotes className='icons'/><span className='menu-items'>Resume</span></a>
+        <a href="#"><AiOutlineThunderbolt className='icons'/><span className='menu-items'>Skills</span></a>
+        <a href="#"><CiServer className='icons'/><span className='menu-items'>Project</span></a>
+        <a href="#"><IoCallOutline className='icons'/><span className='menu-items'>Contact</span></a>
+      </div>:""}
+      
+    </div>
   )
 }
 

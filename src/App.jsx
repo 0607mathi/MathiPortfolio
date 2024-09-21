@@ -1,4 +1,5 @@
 import './App.css'
+import About from './PortfolioComponents/About'
 import Banner from './PortfolioComponents/Banner'
 import NavBar from './PortfolioComponents/NavBar'
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <div className='container-portfoio'>
         <NavBar/>
         <Banner/>
+        <About/>
       </div>
     </>
   )
