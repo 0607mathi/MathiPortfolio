@@ -17,7 +17,6 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    
 }
 
 .name{
@@ -99,56 +98,4 @@
 
   }
   
-
-  /* dropdown menu styles....! */
-
-.dropdown{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    gap: 15px;
-    padding: 1% 1% 2% 0;
-    background-color:black;
-    /* backdrop-filter: blur(1px); */
-    border-radius: 7px;
-    position: absolute;
-    width: 99%;
-
-}
-
-.dropdown>a{
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items:center;
-    gap: 5px;
-    font-size: 18px;
-    width:105px;
-}
-
-.dropdown>a>.icons{
-    font-size:25px;
-    color: yellow;
-}
-
-.dropdown>a>.menu-items{
-    border: 3px solid transparent;
-    font-weight: 500;
-}
-
-.dropdown>a>.menu-items:hover{
-    border-bottom: 3px solid yellow;
-    border-radius: 1px;
-}
-
-.dropdown{
-    display: none;
-}
-
-@media (min-width: 50px) and (max-width: 978px) {
-    .dropdown{
-        display:flex;
-    }
-}
 
