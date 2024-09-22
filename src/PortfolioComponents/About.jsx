@@ -5,7 +5,7 @@ const About = () => {
     <div className='About-container'>
         
             <div className="header"><span className='yellow'>About</span>Me</div>
-            <p className='about-quote'>To improve my skills and knowledge in technology and shape my professional career along with the organizational growth.</p>
+            <span className='about-quote'>To improve my skills and knowledge in technology and shape my professional career along with the organizational growth.</span>
             <table className=''>
                     <tr className=''>
                         <td className='title '>Name</td> <td className=''>:</td>

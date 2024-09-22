@@ -1,4 +1,5 @@
 .About-container{
+    margin-top: 2%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -8,10 +9,10 @@
 
 
 .about-quote{
-    font-size: 13px;
     text-align: center;
     padding: 1% 2%;
-    font-weight: 600;
+    font-weight: 500;
+    color: gray;
 }
 
 .title{

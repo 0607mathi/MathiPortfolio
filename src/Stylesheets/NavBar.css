@@ -68,6 +68,12 @@
     display: none;
 }
 
+.close-icon{
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+}
+
 /* Responsive code by using media qurey */
   
   @media (min-width: 50px) and (max-width: 978px) {
@@ -93,6 +99,9 @@
 
   }
   
+
+  /* dropdown menu styles....! */
+
 .dropdown{
     display: flex;
     flex-direction: column;
@@ -100,7 +109,8 @@
     align-items:center;
     gap: 15px;
     padding: 1% 1% 2% 0;
-    backdrop-filter: blur(4px);
+    background-color:black;
+    /* backdrop-filter: blur(1px); */
     border-radius: 7px;
     position: absolute;
     width: 99%;
@@ -142,4 +152,3 @@
     }
 }
 
-/* dropdown Animation */

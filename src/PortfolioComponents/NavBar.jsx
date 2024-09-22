@@ -7,12 +7,16 @@ import { AiOutlineThunderbolt } from "react-icons/ai";
 import { CiServer } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
-// import DropdownNav from './DropdownNav';
-
-
-
+import { IoClose } from "react-icons/io5";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const NavBar = () => {
- 
+   // drop down animation 
+   AOS.init({
+    duration: 400, 
+    easing: "ease-in-out", 
+    once: true,
+  });
   const [dropdownOnOff,setDropdownOnOff]=useState(false);
   return (
     <div className='nav-bar'>
@@ -29,8 +33,11 @@ const NavBar = () => {
                 <a href="#"><CiServer className='icons'/><span className='menu-items'>Project</span></a>
                 <a href="#"><IoCallOutline className='icons'/><span className='menu-items'>Contact</span></a>
         </div>
-        <div className='menu-button' onClick={()=>{setDropdownOnOff(prevState => !prevState)}}><TiThMenu className='menu-icon'/></div>
+        <div className='menu-button' onClick={()=>{setDropdownOnOff(prevState => !prevState)}}>{dropdownOnOff==false?<TiThMenu className='menu-icon'/>:<IoClose className='close-icon'/>}</div>
       </div>
+
+      {/* in here the drop down menu rendering the condition statement Ternory operator*/}
+
       {dropdownOnOff==true?<div className="dropdown" data-aos="fade-down">
         <a href="#"><BiHomeAlt2 className='icons'/><span className='menu-items'>Home</span></a>
         <a href="#"><PiUserListBold className='icons'/><span className='menu-items'>About</span></a>
