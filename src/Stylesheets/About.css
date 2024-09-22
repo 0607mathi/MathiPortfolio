@@ -52,13 +52,13 @@ td{
 @media (min-width: 426px) and (max-width: 2560px) {
     table{
         align-self: flex-start;
-        margin-left: 10%;
+        margin-left: 15%;
     }
     .title{
-        font-size: 17px;
+        font-size: 19px;
     }
     .answer{
-        font-size: 16px;
+        font-size: 17px;
     }
     .about-quote{
         width: 80%;
