@@ -3,6 +3,7 @@ import About from './PortfolioComponents/About'
 import Banner from './PortfolioComponents/Banner'
 import NavBar from './PortfolioComponents/NavBar'
 import ProjectCompletion from './PortfolioComponents/ProjectCompletion'
+import ResumeSection from './PortfolioComponents/ResumeSection'
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
         <Banner/>
         <About/>
         <ProjectCompletion/>
+        <ResumeSection/>
       </div>
     </>
   )
