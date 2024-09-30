@@ -8,7 +8,7 @@
 }
 
 img{
-    width: 100%;
+    width: 97%;
     border-radius: 6px;
 }
 
@@ -67,7 +67,7 @@ img{
     }  
 }
 
-@media (min-width: 949px)  and (max-width: 1536px)  {
+@media (min-width: 950px)  and (max-width: 2560px)  {
     img{
         width: 88%;
         height: 580px;
