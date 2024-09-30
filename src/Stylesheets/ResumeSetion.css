@@ -88,6 +88,13 @@
     font-weight: 500;
 }
 
+.download-resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
 @media (min-width: 500px) and (max-width: 767px) {
     .box{
         width: 90%;
