@@ -67,6 +67,10 @@
 
 @media (min-width: 575px) and (max-width: 767px) {
 
+    .skill-section>.heading{
+        font-size: 2.1rem;
+    }
+
     .entier-setup{
         width: 75%;
     }
@@ -85,6 +89,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 2568px) {
+
+    .skill-section>.heading{
+        font-size: 2.1rem;
+    }
 
     .entier-setup{
         width: 40%;
