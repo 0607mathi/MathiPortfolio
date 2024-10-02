@@ -1,0 +1,52 @@
+.project-section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-section>div>.heading{
+    border: 4px solid transparent;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.project-section>div>.heading:hover{
+    border-bottom: 4px solid yellow;
+}
+.project-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    gap:20px;
+    margin-bottom: 10px;
+}
+
+.projects{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7px;
+    padding: 15px 15px;
+    background-color:#1A1A1A;
+}
+
+.projects>img{
+    width: 100%;
+    height: 200px;
+}
+
+.projects>.project-name{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    gap: 5px;
+}

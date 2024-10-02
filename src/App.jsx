@@ -3,6 +3,7 @@ import About from './PortfolioComponents/About'
 import Banner from './PortfolioComponents/Banner'
 import NavBar from './PortfolioComponents/NavBar'
 import ProjectCompletion from './PortfolioComponents/ProjectCompletion'
+import ProjectSection from './PortfolioComponents/ProjectSection'
 import ResumeSection from './PortfolioComponents/ResumeSection'
 import SkillsSection from './PortfolioComponents/SkillsSection'
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <ProjectCompletion/>
         <ResumeSection/>
         <SkillsSection />
+        <ProjectSection />
       </div>
     </>
   )
