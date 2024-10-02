@@ -12,7 +12,7 @@ const SkillsSection = () => {
   return (
     <div className='skill-section'>
         <div className='heading'>
-            <p>Skills</p>
+            <span>Skills</span>
         </div>
         <div className='skills'>
             {/* java */}

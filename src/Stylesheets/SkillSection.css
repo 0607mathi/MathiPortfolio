@@ -10,8 +10,16 @@
     font-size: 25px;
     font-weight: 600;
     width: fit-content;
-    padding: 0px 20px;
-    margin-top: 10px;
+    margin: 10px 0px;
+}
+
+.skill-section>.heading>span{
+    border: 4px solid transparent;
+    cursor: pointer;
+}
+
+.skill-section>.heading>span:hover{
+    border-bottom: 4px solid yellow;
 }
 
 .skills{

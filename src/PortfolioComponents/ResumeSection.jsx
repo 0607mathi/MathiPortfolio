@@ -9,7 +9,7 @@ import Banner from "../assets/consensus-banner.png"
 const ResumeSection = () => {
   return (
     <div className=" resume-section">
-        <div className="heading"><span className=''>Resume</span></div>
+        <div className="heading"><span className='resume'>Resume</span></div>
         <div className='resume-container'>
             {/* consensus academy */}
         <div className="box ">
