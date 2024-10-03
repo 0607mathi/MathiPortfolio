@@ -50,3 +50,31 @@
     font-weight: 600;
     gap: 5px;
 }
+
+@media (min-width: 560px) and (max-width: 767px) {
+    .projects{
+        width: 78%;
+    }
+
+    .projects>img{
+        height: 250px;
+    }
+
+    .projects>.project-name{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 2568px) {
+    .projects{
+        width: 42%;
+    }
+
+    .projects>img{
+        height: 300px;
+    }
+
+    .projects>.project-name{
+        font-size: 18px;
+    }
+}

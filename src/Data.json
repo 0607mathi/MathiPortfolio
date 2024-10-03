@@ -1,0 +1,217 @@
+{
+    "About_Section_Carrer_Objective":"To improve my skills and knowledge in technology and shape my professional career along with the organizational growth.",
+    "About_Section":[
+            {
+                "id":1,
+                "Question":"Name",
+                "Answer":"Mathiyarasu"
+            },
+            {
+                "id":2,
+                "Question":"Date of birth",
+                "Answer":"September 06, 2002"
+            },
+            {
+                "id":3,
+                "Question":"Address",
+                "Answer":"Salem Tamilnadu India"
+            },
+            {
+                "id":4,
+                "Question":"Zip code",
+                "Answer":"636309"
+            },
+            {
+                "id":5,
+                "Question":"Email",
+                "Answer":"mathiayarsu.m0607@gmail.com"
+            },
+            {
+                "id":6,
+                "Question":"Phone",
+                "Answer":"+91 8248477166"
+            }
+    ],
+
+    "Resume_Section":[
+        {
+            "course_id":1,
+            "background_img":"MathiPortfolio/images/consensus-acc.jpg",
+            "year_of_Complection":"2023-2024",
+            "insition_name":"Consensus Academy",
+            "roll_first_name":"I am",
+            "roll_last_name":"a trained fresher",
+            "about_course":"I have learned and successfully completed Java fundamentals and data structures at the Consensus Academy during the year 2023-2024."
+        },
+        {
+            "course_id":2,
+            "background_img":"MathiPortfolio/images/mec-college-img.jpg",
+            "year_of_Complection":"2020-2024",
+            "insition_name":"muthayammal engineering college",
+            "roll_first_name":"Anna",
+            "roll_last_name":"university",
+            "about_course":"I have successfully completed my Bachelor of Technology (BTech) degree in the Information Technology (IT) field and am now ready to pursue a professional career in this dynamic and ever-evolving industry."
+        },
+        {
+            "course_id":3,
+            "background_img":"MathiPortfolio/images/kmhss-12.jpg",
+            "year_of_Complection":"2019-2020",
+            "insition_name":"kalaimagal Matric higher secondary school",
+            "roll_first_name":"state",
+            "roll_last_name":"board",
+            "about_course":"In 2020, I graduated from the 12th grade with excellent marks, showcasing my strong academic performance."
+        },
+        {
+            "course_id":4,
+            "background_img":"MathiPortfolio/images/kmhss-10.jpg",
+            "year_of_Complection":"2017-2018",
+            "insition_name":"kalaimagal Matric higher secondary school",
+            "roll_first_name":"state",
+            "roll_last_name":"board",
+            "about_course":"I completed my 10th standard with excellent marks in the year 2018, demonstrating a strong academic foundation."
+        }
+    ],
+    
+    "Projects_Section":[
+        {
+            "project_id":1,
+            "project_first_name":"Quiz",
+            "project_last_name":"App",
+            "Project_Thambnail":"MathiPortfolio/images/quizapp.png",
+            "Address":""
+        },
+        {
+            "project_id":2,
+            "project_first_name":"FAQ",
+            "project_last_name":"App",
+            "Project_Thambnail":"MathiPortfolio/images/faq.png",
+            "Address":""
+        },
+        {
+            "project_id":3,
+            "project_first_name":"Password",
+            "project_last_name":"Generator",
+            "Project_Thambnail":"MathiPortfolio/images/password.png",
+            "Address":""
+        },
+        {
+            "project_id":4,
+            "project_first_name":"Digital",
+            "project_last_name":"Clock",
+            "Project_Thambnail":"MathiPortfolio/images/clock.png",
+            "Address":""
+        },
+        {
+            "project_id":5,
+            "project_first_name":"Weather",
+            "project_last_name":"App",
+            "Project_Thambnail":"MathiPortfolio/images/WeatherApp.png",
+            "Address":""
+        },
+        {
+            "project_id":6,
+            "project_first_name":"QR Code",
+            "project_last_name":"Generator",
+            "Project_Thambnail":"MathiPortfolio/images/QRcode.png",
+            "Address":""
+        },
+        {
+            "project_id":7,
+            "project_first_name":"Advice",
+            "project_last_name":"App",
+            "Project_Thambnail":"MathiPortfolio/images/adviceapp.png",
+            "Address":""
+        },
+        {
+            "project_id":8,
+            "project_first_name":"BMI",
+            "project_last_name":"Calculator",
+            "Project_Thambnail":"MathiPortfolio/images/bmicalculator.png",
+            "Address":""
+        },
+        {
+            "project_id":9,
+            "project_first_name":"User",
+            "project_last_name":"Card",
+            "Project_Thambnail":"MathiPortfolio/images/usercard.jpg",
+            "Address":""
+        },
+        {
+            "project_id":10,
+            "project_first_name":"Hotel",
+            "project_last_name":"Management",
+            "Project_Thambnail":"MathiPortfolio/images/hotelmanagement.png",
+            "Address":""
+        },
+        {
+            "project_id":11,
+            "project_first_name":"Flipkart",
+            "project_last_name":"Clone",
+            "Project_Thambnail":"MathiPortfolio/images/flipkart.png",
+            "Address":""
+        },
+        {
+            "project_id":12,
+            "project_first_name":"Amazon",
+            "project_last_name":"Clone",
+            "Project_Thambnail":"MathiPortfolio/images/amazon.png",
+            "Address":""
+        },
+        {
+            "project_id":13,
+            "project_first_name":"Whatsapp",
+            "project_last_name":"Web Clone",
+            "Project_Thambnail":"MathiPortfolio/images/whatsapp.png",
+            "Address":""
+        },
+        {
+            "project_id":14,
+            "project_first_name":"CGPA",
+            "project_last_name":"Calculator",
+            "Project_Thambnail":"MathiPortfolio/images/cgpacalculator.png",
+            "Address":""
+        },
+        {
+            "project_id":15,
+            "project_first_name":"Eassy",
+            "project_last_name":"Writting Pad",
+            "Project_Thambnail":"MathiPortfolio/images/wordcount.png",
+            "Address":""
+        },
+        {
+            "project_id":16,
+            "project_first_name":"Mathematic",
+            "project_last_name":"Calculator",
+            "Project_Thambnail":"MathiPortfolio/images/claculator.png",
+            "Address":""
+        },
+        {
+            "project_id":17,
+            "project_first_name":"Bomb",
+            "project_last_name":"Defuse Game",
+            "Project_Thambnail":"MathiPortfolio/images/bombgame.png",
+            "Address":""
+        },
+        {
+            "project_id":18,
+            "project_first_name":"Dancing",
+            "project_last_name":"Robot",
+            "Project_Thambnail":"MathiPortfolio/images/robot.png",
+            "Address":""
+        },
+        {
+            "project_id":19,
+            "project_first_name":"Book",
+            "project_last_name":"Store",
+            "Project_Thambnail":"MathiPortfolio/images/bookstore.webp",
+            "Address":""
+        },
+        {
+            "project_id":20,
+            "project_first_name":"Departmental",
+            "project_last_name":"Store",
+            "Project_Thambnail":"MathiPortfolio/images/departmentalstore.jpg",
+            "Address":""
+        }
+    ]
+}
