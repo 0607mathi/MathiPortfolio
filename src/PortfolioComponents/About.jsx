@@ -8,16 +8,19 @@ const About = () => {
             <div className="header"><span className='yellow'>About</span>Me</div>
             <span className='about-quote'>{Data.About_Section_Carrer_Objective}</span>
             <table className=''>
+                <tbody>
                 {
                     Data.About_Section.map(data=>{
                         return(
                             <tr key={data.id}>
-                                <td className='title '>{data.Question}</td> <td>:</td>
+                                <td className='title '>{data.Question}</td>
+                                <td>:</td>
                                 <td className='answer '>{data.Answer}</td>
                             </tr>
                         )
                     })
                 }
+                </tbody>
             </table>
         </div>
   )

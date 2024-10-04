@@ -2,7 +2,6 @@ import React from 'react'
 import '../Stylesheets/ProjectSection.css'
 import Data from "../Data.json"
 const ProjectSection = () => {
-  console.log(Data.Projects_Section[0].Project_Thambnail)
   return (
     <div className='project-section'>  
         <div>
