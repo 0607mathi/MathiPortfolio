@@ -1,5 +1,6 @@
 import './App.css'
 import About from './PortfolioComponents/About'
+import AvailableSection from './PortfolioComponents/AvailableSection'
 import Banner from './PortfolioComponents/Banner'
 import NavBar from './PortfolioComponents/NavBar'
 import ProjectCompletion from './PortfolioComponents/ProjectCompletion'
@@ -17,6 +18,7 @@ function App() {
         <ResumeSection/>
         <SkillsSection />
         <ProjectSection />
+        <AvailableSection />
       </div>
     </>
   )

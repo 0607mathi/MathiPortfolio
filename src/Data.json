@@ -213,5 +213,25 @@
             "Project_Thambnail":"/MathiPortfolio/images/departmentalstore.jpg",
             "Address":""
         }
+    ],
+
+    "Available_Section":[
+        {
+            "roll_name_1":"i'm",
+            "roll_name_2":"available",
+            "roll_name_3":"for freelancing",
+            "quotes":"I am prepared to work with your organization and also available for freelancing.",
+            "address":"",
+            "background_img":"url(/MathiPortfolio/images/bg_1.jpg)"
+        }
+    ],
+
+    "Contact_Section":[
+        {
+            "icon_id":1,
+            "icon":"FaGithub",
+            "icon_name":"Address",
+            "icon_data":"Salem Tamilnadu India 636309"
+        }
     ]
 }
