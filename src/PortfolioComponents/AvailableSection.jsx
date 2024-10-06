@@ -6,7 +6,7 @@ const AvailableSection = () => {
   return (
     <div className='available-section' style={{backgroundImage:`${data.background_img}`}}>
         <div className='content heading'>
-            <sapn>{data.roll_name_1}</sapn>
+            <span>{data.roll_name_1}</span>
             <span className='yellow'>{data.roll_name_2}</span>
             <span>{data.roll_name_3}</span>
         </div>

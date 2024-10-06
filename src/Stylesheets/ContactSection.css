@@ -1,0 +1,75 @@
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.contact-section>div>.header{
+    margin-top: 1.5rem;
+}
+
+.contact-section>.items{
+    padding: 15px 0%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contact-section>.items>.boxs{
+    padding: 10% 12%;
+    border-radius: 7px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    background-color: #1A1A1A;
+}   
+
+.contact-section>.items>.boxs:hover{
+    background-color: yellow;
+    color:black ;
+}
+
+.contact-section>.items>.boxs:hover>.answer{
+    color:black ;
+}
+
+.contact-section>.items>.boxs>.icon{
+    font-size: 2rem;
+}
+
+.contact-section>.items>.boxs:hover>.icon{
+    color: black;
+}
+
+.contact-section>.items>.boxs>.question{
+    text-transform:capitalize;
+}
+
+.contact-section>.items>.boxs>.answer{
+    font-size: 14px;
+}
+
+@media (min-width: 630px) and (max-width: 1536px) {
+
+    .contact-section>.items>.boxs>.icon{
+        font-size: 3rem;
+    }
+    .contact-section>.items>.boxs{
+        padding: 6% 10%;
+    }
+    .contact-section>.items>.boxs>.question,.answer{
+        font-size: 18px;
+    }
+    .contact-section>.items>.boxs>.answer{
+        font-size: 18px;
+    }
+}

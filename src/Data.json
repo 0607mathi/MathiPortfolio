@@ -229,9 +229,39 @@
     "Contact_Section":[
         {
             "icon_id":1,
-            "icon":"FaGithub",
+            "icon":"FaRegAddressCard",
             "icon_name":"Address",
             "icon_data":"Salem Tamilnadu India 636309"
+        },
+        {
+            "icon_id":2,
+            "icon":"FaPhone",
+            "icon_name":"Phone",
+            "icon_data":"+91 8248477166"
+        },
+        {
+            "icon_id":3,
+            "icon":"FaTelegramPlane",
+            "icon_name":"Email",
+            "icon_data":"mathiyarasu.m0607@gmail.com"
+        },
+        {
+            "icon_id":4,
+            "icon":"GrLinkedinOption",
+            "icon_name":"Lined In",
+            "icon_data":"0607mathi"
+        },
+        {
+            "icon_id":5,
+            "icon":"FaGithub",
+            "icon_name":"Github",
+            "icon_data":"0607mathi"
+        },
+        {
+            "icon_id":6,
+            "icon":"GrInstagram",
+            "icon_name":"Instagram",
+            "icon_data":"0607mathi"
         }
     ]
 }
