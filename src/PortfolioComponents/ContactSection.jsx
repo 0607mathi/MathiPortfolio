@@ -7,7 +7,7 @@ export const ContactSection = () => {
             <div>
                 <div className="header">Contact</div>
             </div>
-        <div className='items br'>
+        <div className='items'>
            {
             Data.Contact_Section.map(data=>{
                 return(
