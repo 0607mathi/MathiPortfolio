@@ -65,22 +65,46 @@
     font-size: 14px;
 }
 
-@media (min-width: 630px) and (max-width: 1536px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
     .contact-section>.items{
-        width: 80%;
+        width: 93%;
     }
 
     .contact-section>.items>.boxs>.icon{
-        width: 60px;
+        width: 50px;
     }
     .contact-section>.items>.boxs{
         padding: 1% 1%;
-        width:35%;
+        width:43%;
         height: 200px;
     }
     .contact-section>.items>.boxs>.question,.answer{
         font-size: 18px;
+       
+    }
+    .contact-section>.items>.boxs>.answer{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 2560px) {
+
+    .contact-section>.items{
+        width: 78%;
+    }
+
+    .contact-section>.items>.boxs>.icon{
+        width: 58px;
+    }
+    .contact-section>.items>.boxs{
+        padding: 1% 1%;
+        width:43%;
+        height: 200px;
+    }
+    .contact-section>.items>.boxs>.question,.answer{
+        font-size: 18px;
+       
     }
     .contact-section>.items>.boxs>.answer{
         font-size: 18px;
