@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Stylesheets/ProjectSection.css'
 import Data from "../Data.json"
+import ProjectCompletion from './ProjectCompletion'
 const ProjectSection = () => {
   return (
     <div className='project-section'>  
@@ -22,6 +23,7 @@ const ProjectSection = () => {
               })
              }
       </div>
+      <ProjectCompletion />
     </div>
   )
 }
