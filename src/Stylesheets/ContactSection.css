@@ -43,6 +43,7 @@
 .contact-section>.items>.boxs:hover{
     background-color: yellow;
     color:black ;
+    cursor: pointer;
 }
 
 .contact-section>.items>.boxs:hover>.answer{

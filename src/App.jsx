@@ -9,6 +9,7 @@ import ProjectCompletion from './PortfolioComponents/ProjectCompletion'
 import ProjectSection from './PortfolioComponents/ProjectSection'
 import ResumeSection from './PortfolioComponents/ResumeSection'
 import SkillsSection from './PortfolioComponents/SkillsSection'
+import VersionSetion from './PortfolioComponents/VersionSetion'
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
         <AvailableSection />
         <ContactSection />
         <LinkSection />
+        <VersionSetion />
       </div>
     </>
   )
