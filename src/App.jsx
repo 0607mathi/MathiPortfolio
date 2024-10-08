@@ -24,6 +24,7 @@ function App() {
         <AvailableSection />
         <ContactSection />
         <LinkSection />
+        <hr />
         <VersionSetion />
       </div>
     </>
