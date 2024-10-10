@@ -18,6 +18,10 @@ const ProjectSection = () => {
                       <span className="yellow">{data.project_first_name}</span>
                       <span>{data.project_last_name}</span>
                     </div>
+                    <div className="prev-get">
+                      <button className='code'>Code</button>
+                      <button className='preview'>preview</button>
+                    </div>
                   </div>
                 )
               })

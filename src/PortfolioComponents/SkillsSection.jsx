@@ -9,6 +9,7 @@ import { SiReactbootstrap } from "react-icons/si";
 import { TbBrandVite } from "react-icons/tb";
 import { FaGitAlt } from "react-icons/fa6";
 const SkillsSection = () => {
+    const Icons = ["<FaJava />"]
   return (
     <div className='skill-section'>
         <div className='heading'>
@@ -19,7 +20,7 @@ const SkillsSection = () => {
             <div className='entier-setup'>
             <div className='skill-name-logo'>
                 <div className="skill-name">Java</div>
-                <div className="logo"> <FaJava /> </div>
+                <div className="logo"><FaJava /></div>
             </div>
             <div className="progress-bar">
                 <div className="bg-bar">

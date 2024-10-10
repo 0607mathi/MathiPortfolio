@@ -71,6 +71,58 @@
             "about_course":"I completed my 10th standard with excellent marks in the year 2018, demonstrating a strong academic foundation."
         }
     ],
+
+    "Skill_Section":[
+        {
+            "skillid":1,
+            "skill":"Java",
+            "icon":"",
+            "level":70
+        },
+        {
+            "skillid":2,
+            "skill":"SQL",
+            "icon":"",
+            "level":50
+        },
+        {
+            "skillid":3,
+            "skill":"HTML5",
+            "icon":"",
+            "level":90
+        },
+        {
+            "skillid":4,
+            "skill":"CSS3",
+            "icon":"",
+            "level":70
+        },
+        {
+            "skillid":5,
+            "skill":"Bootstrap",
+            "icon":"",
+            "level":70
+        },
+        {
+            "skillid":6,
+            "skill":"Java Script",
+            "icon":"",
+            "level":50
+        },
+        {
+            "skillid":7,
+            "skill":"React+Vite",
+            "icon":"",
+            "level":40
+        },
+        {
+            "skillid":8,
+            "skill":"Git",
+            "icon":"",
+            "level":50
+        }
+    
+    ],
     
     "Projects_Section":[
         {
@@ -78,140 +130,160 @@
             "project_first_name":"Quiz",
             "project_last_name":"App",
             "Project_Thambnail":"/MathiPortfolio/images/quizapp.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":2,
             "project_first_name":"FAQ",
             "project_last_name":"App",
             "Project_Thambnail":"/MathiPortfolio/images/faq.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":3,
             "project_first_name":"Password",
             "project_last_name":"Generator",
             "Project_Thambnail":"/MathiPortfolio/images/password.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":4,
             "project_first_name":"Digital",
             "project_last_name":"Clock",
             "Project_Thambnail":"/MathiPortfolio/images/clock.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":5,
             "project_first_name":"Weather",
             "project_last_name":"App",
             "Project_Thambnail":"/MathiPortfolio/images/WeatherApp.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":6,
             "project_first_name":"QR Code",
             "project_last_name":"Generator",
             "Project_Thambnail":"/MathiPortfolio/images/QRcode.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":7,
             "project_first_name":"Advice",
             "project_last_name":"App",
             "Project_Thambnail":"/MathiPortfolio/images/adviceapp.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":8,
             "project_first_name":"BMI",
             "project_last_name":"Calculator",
             "Project_Thambnail":"/MathiPortfolio/images/bmicalculator.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":9,
             "project_first_name":"User",
             "project_last_name":"Card",
             "Project_Thambnail":"/MathiPortfolio/images/usercard.jpg",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":10,
             "project_first_name":"Hotel",
             "project_last_name":"Management",
             "Project_Thambnail":"/MathiPortfolio/images/hotelmanagement.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":11,
             "project_first_name":"Flipkart",
             "project_last_name":"Clone",
             "Project_Thambnail":"/MathiPortfolio/images/flipkart.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":12,
             "project_first_name":"Amazon",
             "project_last_name":"Clone",
             "Project_Thambnail":"/MathiPortfolio/images/amazon.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":13,
             "project_first_name":"Whatsapp",
             "project_last_name":"Web Clone",
             "Project_Thambnail":"/MathiPortfolio/images/whatsapp.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":14,
             "project_first_name":"CGPA",
             "project_last_name":"Calculator",
             "Project_Thambnail":"/MathiPortfolio/images/cgpacalculator.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":15,
             "project_first_name":"Eassy",
             "project_last_name":"Writting Pad",
             "Project_Thambnail":"/MathiPortfolio/images/wordcount.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":16,
             "project_first_name":"Mathematic",
             "project_last_name":"Calculator",
             "Project_Thambnail":"/MathiPortfolio/images/claculator.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":17,
             "project_first_name":"Bomb",
             "project_last_name":"Defuse Game",
             "Project_Thambnail":"/MathiPortfolio/images/bombgame.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":18,
             "project_first_name":"Dancing",
             "project_last_name":"Robot",
             "Project_Thambnail":"/MathiPortfolio/images/robot.png",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":19,
             "project_first_name":"Book",
             "project_last_name":"Store",
             "Project_Thambnail":"/MathiPortfolio/images/bookstore.webp",
-            "Address":""
+            "preview":"",
+            "code":""
         },
         {
             "project_id":20,
             "project_first_name":"Departmental",
             "project_last_name":"Store",
             "Project_Thambnail":"/MathiPortfolio/images/departmentalstore.jpg",
-            "Address":""
+            "preview":"",
+            "code":""
         }
     ],
 
