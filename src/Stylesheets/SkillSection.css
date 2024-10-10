@@ -53,6 +53,14 @@
 .skill-name-logo>.logo{
     font-size: 2rem;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-name-logo>.logo>img{
+    width: 40px;
+    height: 40px;
 }
 
 .progress-bar{
@@ -68,7 +76,6 @@
 
 .inner-bar{
     background-color: yellow;
-    width: 50%;
     height: 10px;
     border-radius: 3px;
 }

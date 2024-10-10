@@ -76,50 +76,50 @@
         {
             "skillid":1,
             "skill":"Java",
-            "icon":"",
-            "level":70
+            "icon":"/MathiPortfolio/skill_icons/java.png",
+            "level":"70%"
         },
         {
             "skillid":2,
             "skill":"SQL",
-            "icon":"",
-            "level":50
+            "icon":"/MathiPortfolio/skill_icons/database-storage.png",
+            "level":"50%"
         },
         {
             "skillid":3,
             "skill":"HTML5",
-            "icon":"",
-            "level":90
+            "icon":"/MathiPortfolio/skill_icons/html-5.png",
+            "level":"90%"
         },
         {
             "skillid":4,
             "skill":"CSS3",
-            "icon":"",
-            "level":70
+            "icon":"/MathiPortfolio/skill_icons/css-3.png",
+            "level":"70%"
         },
         {
             "skillid":5,
             "skill":"Bootstrap",
-            "icon":"",
-            "level":70
+            "icon":"/MathiPortfolio/skill_icons/bootstrap.png",
+            "level":"70%"
         },
         {
             "skillid":6,
             "skill":"Java Script",
-            "icon":"",
-            "level":50
+            "icon":"/MathiPortfolio/skill_icons/js.png",
+            "level":"50%"
         },
         {
             "skillid":7,
             "skill":"React+Vite",
-            "icon":"",
-            "level":40
+            "icon":"/MathiPortfolio/skill_icons/react.png",
+            "level":"40%"
         },
         {
             "skillid":8,
             "skill":"Git",
-            "icon":"",
-            "level":50
+            "icon":"/MathiPortfolio/skill_icons/git.png",
+            "level":"50%"
         }
     
     ],
