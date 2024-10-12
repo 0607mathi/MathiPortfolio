@@ -5,7 +5,7 @@ const ProjectCompletion = () => {
   return (
     <div className='project-completion'>
         <div><p className='yellow'>{Data.Projects_Section.length}</p><p>Projects Completed</p></div>
-        <button>Download Resume</button>
+        <button onClick={()=>{window.open(Data.Resume_Download[0].link,'_blank')}}>Download Resume</button>
     </div>
   )
 }

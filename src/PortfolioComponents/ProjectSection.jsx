@@ -12,15 +12,15 @@ const ProjectSection = () => {
              {
               Data.Projects_Section.map(data=>{
                 return(
-                  <div className="projects" key={data.project_id}>
+                  <div className="projects" key={data.project_id} >
                     <img src={data.Project_Thambnail} alt={data.project_first_name+" "+data.project_last_name} />
                     <div className="project-name">
                       <span className="yellow">{data.project_first_name}</span>
                       <span>{data.project_last_name}</span>
                     </div>
                     <div className="prev-get">
-                      <button className='code'>Code</button>
-                      <button className='preview'>preview</button>
+                      <button className='code' onClick={()=>{window.open(data.code, '_blank')}}>Code</button>
+                      <button className='preview' onClick={()=>{window.open(data.preview, '_blank')}}>preview</button>
                     </div>
                   </div>
                 )

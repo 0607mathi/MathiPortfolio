@@ -31,7 +31,7 @@ const ResumeSection = () => {
             }
         </div>
         <div className='download-resume'>
-            <button >Download Resume</button>
+            <button onClick={()=>{window.open(Data.Resume_Download[0].link,'_blank')}}>Download Resume</button>
         </div>
     </div>
   )

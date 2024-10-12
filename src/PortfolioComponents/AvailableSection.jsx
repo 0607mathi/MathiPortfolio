@@ -13,7 +13,7 @@ const AvailableSection = () => {
         <div className='quotes'>
             <span>{data.quotes}</span>
         </div>
-        <button>hire me</button>
+        <button onClick={()=>{window.open(Data.Resume_Download[0].link,'_blank')}}>hire me</button>
     </div>
   )
 }

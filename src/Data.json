@@ -130,160 +130,160 @@
             "project_first_name":"Quiz",
             "project_last_name":"App",
             "Project_Thambnail":"/MathiPortfolio/images/quizapp.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/QuizApp/",
+            "code":"https://github.com/0607mathi/QuizApp.git"
         },
         {
             "project_id":2,
             "project_first_name":"FAQ",
             "project_last_name":"App",
             "Project_Thambnail":"/MathiPortfolio/images/faq.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/faq/",
+            "code":"https://github.com/0607mathi/faq.git"
         },
         {
             "project_id":3,
             "project_first_name":"Password",
             "project_last_name":"Generator",
             "Project_Thambnail":"/MathiPortfolio/images/password.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/password/",
+            "code":"https://github.com/0607mathi/password.git"
         },
         {
             "project_id":4,
             "project_first_name":"Digital",
             "project_last_name":"Clock",
             "Project_Thambnail":"/MathiPortfolio/images/clock.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/clock/",
+            "code":"https://github.com/0607mathi/clock.git"
         },
         {
             "project_id":5,
             "project_first_name":"Weather",
             "project_last_name":"App",
             "Project_Thambnail":"/MathiPortfolio/images/WeatherApp.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/Weather-App-Using-API/",
+            "code":"https://github.com/0607mathi/Weather-App-Using-API.git"
         },
         {
             "project_id":6,
             "project_first_name":"QR Code",
             "project_last_name":"Generator",
             "Project_Thambnail":"/MathiPortfolio/images/QRcode.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/QR_Generator/",
+            "code":"https://github.com/0607mathi/QR_Generator.git"
         },
         {
             "project_id":7,
             "project_first_name":"Advice",
             "project_last_name":"App",
             "Project_Thambnail":"/MathiPortfolio/images/adviceapp.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/adviceApp/",
+            "code":"https://github.com/0607mathi/adviceApp.git"
         },
         {
             "project_id":8,
             "project_first_name":"BMI",
             "project_last_name":"Calculator",
             "Project_Thambnail":"/MathiPortfolio/images/bmicalculator.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/adviceApp/",
+            "code":"https://github.com/0607mathi/adviceApp.git"
         },
         {
             "project_id":9,
             "project_first_name":"User",
             "project_last_name":"Card",
             "Project_Thambnail":"/MathiPortfolio/images/usercard.jpg",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/UserCard/",
+            "code":"https://github.com/0607mathi/UserCard.git"
         },
         {
             "project_id":10,
             "project_first_name":"Hotel",
             "project_last_name":"Management",
             "Project_Thambnail":"/MathiPortfolio/images/hotelmanagement.png",
-            "preview":"",
-            "code":""
+            "preview":"https://github.com/0607mathi/Hotel_Management.git",
+            "code":"https://github.com/0607mathi/Hotel_Management.git"
         },
         {
             "project_id":11,
             "project_first_name":"Flipkart",
             "project_last_name":"Clone",
             "Project_Thambnail":"/MathiPortfolio/images/flipkart.png",
-            "preview":"",
-            "code":""
+            "preview":"https://mathiyarasu.netlify.app/src/flipkartclone/flipkart",
+            "code":"https://github.com/0607mathi/flipkart_clone.git"
         },
         {
             "project_id":12,
             "project_first_name":"Amazon",
             "project_last_name":"Clone",
             "Project_Thambnail":"/MathiPortfolio/images/amazon.png",
-            "preview":"",
-            "code":""
+            "preview":"https://mathiyarasu.netlify.app/src/amazonclone/amazonclone",
+            "code":"https://github.com/0607mathi/amazon-ekart-clone.git"
         },
         {
             "project_id":13,
             "project_first_name":"Whatsapp",
             "project_last_name":"Web Clone",
             "Project_Thambnail":"/MathiPortfolio/images/whatsapp.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/whatsapp-clone/",
+            "code":"https://github.com/0607mathi/whatsapp-clone.git"
         },
         {
             "project_id":14,
             "project_first_name":"CGPA",
             "project_last_name":"Calculator",
             "Project_Thambnail":"/MathiPortfolio/images/cgpacalculator.png",
-            "preview":"",
-            "code":""
+            "preview":"https://mec-cgpa-calculator.netlify.app/",
+            "code":"https://github.com/0607mathi/mec-cgpa-calculator.git"
         },
         {
             "project_id":15,
             "project_first_name":"Eassy",
             "project_last_name":"Writting Pad",
             "Project_Thambnail":"/MathiPortfolio/images/wordcount.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/Essay-writting-pad/",
+            "code":"https://github.com/0607mathi/Essay-writting-pad.git"
         },
         {
             "project_id":16,
             "project_first_name":"Mathematic",
             "project_last_name":"Calculator",
             "Project_Thambnail":"/MathiPortfolio/images/claculator.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/calculator/",
+            "code":"https://github.com/0607mathi/calculator.git"
         },
         {
             "project_id":17,
             "project_first_name":"Bomb",
             "project_last_name":"Defuse Game",
             "Project_Thambnail":"/MathiPortfolio/images/bombgame.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/bomb-defuse/",
+            "code":"https://github.com/0607mathi/bomb-defuse.git"
         },
         {
             "project_id":18,
             "project_first_name":"Dancing",
             "project_last_name":"Robot",
             "Project_Thambnail":"/MathiPortfolio/images/robot.png",
-            "preview":"",
-            "code":""
+            "preview":"https://0607mathi.github.io/Dancing-Robot/",
+            "code":"https://github.com/0607mathi/Dancing-Robot.git"
         },
         {
             "project_id":19,
             "project_first_name":"Book",
             "project_last_name":"Store",
             "Project_Thambnail":"/MathiPortfolio/images/bookstore.webp",
-            "preview":"",
-            "code":""
+            "preview":"https://github.com/0607mathi/BooksDB.git",
+            "code":"https://github.com/0607mathi/BooksDB.git"
         },
         {
             "project_id":20,
             "project_first_name":"Departmental",
             "project_last_name":"Store",
             "Project_Thambnail":"/MathiPortfolio/images/departmentalstore.jpg",
-            "preview":"",
-            "code":""
+            "preview":"https://github.com/0607mathi/JDBC_DepartmentStore.git",
+            "code":"https://github.com/0607mathi/JDBC_DepartmentStore.git"
         }
     ],
 
@@ -334,6 +334,12 @@
             "icon":"/MathiPortfolio/icons/instagram.png",
             "icon_name":"Instagram",
             "icon_data":"0607mathi"
+        }
+    ],
+
+    "Resume_Download":[
+        {
+            "link":"/MathiPortfolio/resume/MathiyarasuProfile.pdf"
         }
     ]
 }
