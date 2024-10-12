@@ -303,37 +303,43 @@
             "icon_id":1,
             "icon":"/MathiPortfolio/icons/address-1.png",
             "icon_name":"Address",
-            "icon_data":"Salem Tamilnadu India 636309"
+            "icon_data":"Salem Tamilnadu India 636309",
+            "link":"https://maps.app.goo.gl/k4w1gVw7CdY2g8dz7"
         },
         {
             "icon_id":2,
             "icon":"/MathiPortfolio/icons/phone.png",
             "icon_name":"Phone",
-            "icon_data":"+91 8248477166"
+            "icon_data":"+91 8248477166",
+            "link":"tel:+918248477166"
         },
         {
             "icon_id":3,
             "icon":"/MathiPortfolio/icons/email.png",
             "icon_name":"Email",
-            "icon_data":"mathiyarasu.m0607@gmail.com"
+            "icon_data":"mathiyarasu.m0607@gmail.com",
+            "link":"mailto:mathiyarasu.m0607@gmail.com"
         },
         {
             "icon_id":4,
             "icon":"/MathiPortfolio/icons/linkedin.png",
             "icon_name":"Lined In",
-            "icon_data":"0607mathi"
+            "icon_data":"0607mathi",
+            "link":"https://www.linkedin.com/in/mathiyarasu0607/"
         },
         {
             "icon_id":5,
             "icon":"/MathiPortfolio/icons/github.png",
             "icon_name":"Github",
-            "icon_data":"0607mathi"
+            "icon_data":"0607mathi",
+            "link":"https://github.com/0607mathi"
         },
         {
             "icon_id":6,
             "icon":"/MathiPortfolio/icons/instagram.png",
             "icon_name":"Instagram",
-            "icon_data":"0607mathi"
+            "icon_data":"0607mathi",
+            "link":"https://instagram.com/0607_mathi"
         }
     ],
 

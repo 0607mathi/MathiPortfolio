@@ -11,7 +11,7 @@ export const ContactSection = () => {
            {
             Data.Contact_Section.map(data=>{
                 return(
-                    <div className="boxs" key={data.icon_id}>
+                    <div className="boxs" key={data.icon_id} onClick={()=>{window.open(data.link,'_blank')}}>
                         <img src={data.icon} alt={data.icon_name} className='icon'/>
                         <span className='question'>{data.icon_name}</span>
                         <span className='answer'>{data.icon_data}</span>
