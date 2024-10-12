@@ -10,7 +10,14 @@ import ProjectSection from './PortfolioComponents/ProjectSection'
 import ResumeSection from './PortfolioComponents/ResumeSection'
 import SkillsSection from './PortfolioComponents/SkillsSection'
 import VersionSetion from './PortfolioComponents/VersionSetion'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function App() {
+  AOS.init({
+    duration: 800, 
+    easing: "ease-in-out", 
+    once: true,
+  });
   return (
     <>
       <div className='container-portfoio'>

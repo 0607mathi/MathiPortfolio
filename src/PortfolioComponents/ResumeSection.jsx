@@ -1,17 +1,16 @@
 import React from 'react'
 import "../Stylesheets/ResumeSetion.css"
 import Data from "../Data.json"
-
 const ResumeSection = () => {
   return (
-    <div className=" resume-section">
-        <div className="heading"><span className='resume'>Resume</span></div>
+    <div className=" resume-section" id='resume'>
+        <div className="heading" data-aos="fade-up"><span className='resume'>Resume</span></div>
         <div className='resume-container'>
             {/* consensus academy */}
             {
                 Data.Resume_Section.map(data=>{
                     return(
-                        <div className="box" key={data.course_id}>
+                        <div className="box" key={data.course_id} data-aos="fade-up">
                             <img src={data.background_img} alt="" className='bg-img'/>
                             <div className="data">
                                 <div className="year">
@@ -31,7 +30,7 @@ const ResumeSection = () => {
             }
         </div>
         <div className='download-resume'>
-            <button onClick={()=>{window.open(Data.Resume_Download[0].link,'_blank')}}>Download Resume</button>
+            <button onClick={()=>{window.open(Data.Resume_Download[0].link,'_blank')}} data-aos="fade-up">Download Resume</button>
         </div>
     </div>
   )

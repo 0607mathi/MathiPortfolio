@@ -9,11 +9,11 @@ const LinkSection = () => {
   return (
     <div className='link-section'>
         <div className="links">
-            <h3 className=''>
+            <h3 className='' data-aos="fade-up">
                 <div className="yellow">Have</div>
                 <span>a Question ?</span>
             </h3>
-            <div className="link-items">
+            <div className="link-items" data-aos="fade-up">
                 <div className="icon-ans" onClick={()=>{window.open(Data.Contact_Section[0].link,'_blank')}}>
                     < IoLocationSharp className='yellow'/>
                     <span className='link-data'>Salem Tamilnadu India 636309</span>

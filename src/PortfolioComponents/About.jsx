@@ -5,9 +5,9 @@ const About = () => {
   return (
     <div className='About-container'>
         
-            <div className="header"><span className='yellow'>About</span>Me</div>
-            <span className='about-quote'>{Data.About_Section_Carrer_Objective}</span>
-            <table className=''>
+            <div className="header" data-aos="fade-up" id='about'><span className='yellow'>About</span>Me</div>
+            <span className='about-quote' data-aos="fade-up">{Data.About_Section_Carrer_Objective}</span>
+            <table className=''data-aos="fade-up">
                 <tbody>
                 {
                     Data.About_Section.map(data=>{

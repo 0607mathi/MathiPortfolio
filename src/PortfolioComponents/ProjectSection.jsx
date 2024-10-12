@@ -4,15 +4,15 @@ import Data from "../Data.json"
 import ProjectCompletion from './ProjectCompletion'
 const ProjectSection = () => {
   return (
-    <div className='project-section'>  
+    <div className='project-section' id='project'>  
         <div>
-          <div className="heading">Projects</div>
+          <div className="heading" data-aos="fade-up">Projects</div>
         </div>
       <div className="project-box">
              {
               Data.Projects_Section.map(data=>{
                 return(
-                  <div className="projects" key={data.project_id} >
+                  <div className="projects" key={data.project_id} data-aos="fade-up">
                     <img src={data.Project_Thambnail} alt={data.project_first_name+" "+data.project_last_name} />
                     <div className="project-name">
                       <span className="yellow">{data.project_first_name}</span>

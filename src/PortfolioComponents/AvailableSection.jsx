@@ -4,7 +4,7 @@ import Data from '../Data.json'
 const AvailableSection = () => {
     const data =Data.Available_Section[0]
   return (
-    <div className='available-section' style={{backgroundImage:`${data.background_img}`}}>
+    <div className='available-section' style={{backgroundImage:`${data.background_img}`}} data-aos="fade-up">
         <div className='content heading'>
             <span>{data.roll_name_1}</span>
             <span className='yellow'>{data.roll_name_2}</span>
