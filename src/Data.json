@@ -284,6 +284,14 @@
             "Project_Thambnail":"/MathiPortfolio/images/departmentalstore.jpg",
             "preview":"https://github.com/0607mathi/JDBC_DepartmentStore.git",
             "code":"https://github.com/0607mathi/JDBC_DepartmentStore.git"
+        },
+        {
+            "project_id":21,
+            "project_first_name":"Travels",
+            "project_last_name":"App",
+            "Project_Thambnail":"/MathiPortfolio/images/departmentalstore.jpg",
+            "preview":"https://0607mathi.github.io/swethatravels/",
+            "code":"https://github.com/0607mathi/swethatravels.git"
         }
     ],
 
