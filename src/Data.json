@@ -45,6 +45,15 @@
         },
         {
             "course_id":2,
+            "background_img":"/MathiPortfolio/images/skct.png",
+            "year_of_Complection":"2020-2024",
+            "insition_name":"sri krishna college of technology",
+            "roll_first_name":"Anna",
+            "roll_last_name":"university",
+            "about_course":"I am Pursuing my Masters (M.E) degree in the Computer Science Engineering (CSE) field."
+        },
+        {
+            "course_id":3,
             "background_img":"/MathiPortfolio/images/mec-college-img.jpg",
             "year_of_Complection":"2020-2024",
             "insition_name":"muthayammal engineering college",
@@ -53,7 +62,7 @@
             "about_course":"I have successfully completed my Bachelor of Technology (BTech) degree in the Information Technology (IT) field and am now ready to pursue a professional career in this dynamic and ever-evolving industry."
         },
         {
-            "course_id":3,
+            "course_id":4,
             "background_img":"/MathiPortfolio/images/kmhss-12.jpg",
             "year_of_Complection":"2019-2020",
             "insition_name":"kalaimagal Matric higher secondary school",
@@ -62,7 +71,7 @@
             "about_course":"In 2020, I graduated from the 12th grade with excellent marks, showcasing my strong academic performance."
         },
         {
-            "course_id":4,
+            "course_id":5,
             "background_img":"/MathiPortfolio/images/kmhss-10.jpg",
             "year_of_Complection":"2017-2018",
             "insition_name":"kalaimagal Matric higher secondary school",
@@ -119,6 +128,12 @@
             "skillid":8,
             "skill":"Git",
             "icon":"/MathiPortfolio/skill_icons/git.png",
+            "level":"50%"
+        },
+        {
+            "skillid":9,
+            "skill":"Jdbc",
+            "icon":"/MathiPortfolio/skill_icons/database.png",
             "level":"50%"
         }
     
